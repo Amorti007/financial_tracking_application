@@ -1,0 +1,40 @@
+# Sanal ortam klasörü
+venv/
+
+# _pycache_ ve derlenmiş Python dosyaları
+_pycache_/
+*.py[cod]
+
+# Ortam değişkeni dosyaları (örneğin API anahtarları)
+.env
+
+# VSCode kullanıcı ayar dosyaları (kişisel ayarlar)
+.vscode/
+
+# macOS sistem dosyası
+.DS_Store
+
+# Windows sistem dosyası
+Thumbs.db
+
+# Log dosyaları
+*.log
+
+# Jupyter Notebook checkpoint'leri (eğer kullanırsanız)
+.ipynb_checkpoints/
+
+# PyMongo bağlantı cache dosyaları olabilir (önlem olarak)
+*.db
+
+# Test coverage raporları
+htmlcov/
+coverage.xml
+
+# Python cache
+*.pyo
+*.pyd
+
+# Pipenv / Poetry gibi farklı araçlar kullanırsanız
+Pipfile
+Pipfile.lock
+poetry.lock
