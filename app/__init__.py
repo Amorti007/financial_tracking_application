@@ -17,4 +17,8 @@ def create_app():
     mongo.init_app(app)
     CORS(app)
 
+    from app.routes import transactions, users
+    app.register_blueprint(transactions.bp)
+    app.register_blueprint(users.bp)
+
     return app
